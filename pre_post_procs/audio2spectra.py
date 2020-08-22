@@ -137,7 +137,7 @@ imgpath = prefix+'_'+instrument+'/img'+'/'
 mkdir(specpath)
 mkdir(imgpath)
 
-input_dir = inpath + instrument + '/'
+input_dir =  'input/'
 print('from {0}'.format(input_dir))
 ls = sorted(glob.glob(input_dir+'/*.wav'))
 
